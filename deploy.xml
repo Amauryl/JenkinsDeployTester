@@ -7,7 +7,6 @@
 <!-- ===========================	-->
 	<target name="DeployRemoteVersion">
 		<tstamp />
-		<echo msg="Retrieving updated binaries..." />
 		<echo msg="Suppressing configuration files..." />
 		<delete dir="${SourceCodeDir}/app/config" />
 		<delete dir="${SourceCodeDir}/app/logs" />
